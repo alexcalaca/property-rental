@@ -11,7 +11,7 @@ class RoomsController < ApplicationController
   end
 
   def create
-    @rooms = current_user.rooms.build(room_params)
+    @room = current_user.rooms.build(room_params)
     if @room.save
       redirect_to listing_room_path(@room), notice: "Saved..."
     else
