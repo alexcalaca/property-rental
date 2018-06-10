@@ -6,6 +6,7 @@
     <div class="container">
       <%= form_for @room do |f| %>
         <div class="row">
+          
           <div class="col-md-4 select">
             <div class="form-group">
               <label>Home type</label>
@@ -47,7 +48,7 @@
                                         ["2", 2],
                                         ["3", 3],
                                         ["4+", 4]],
-                              id: "accommodate", prompt: "Select...", class: "form-control" %>
+                              id: "bedroom", prompt: "Select...", class: "form-control" %>
               
             </div>
           </div>
@@ -63,6 +64,7 @@
               
             </div>
           </div>
+          
         </div>
         <div><%= f.submit "Create my room", class: "btn btn-normal" %></div>
       <% end %>
