@@ -10,6 +10,7 @@ Rails.application.configure do
   config.assets.digest = true
   config.assets.raise_runtime_errors = true
   config.action_mailer.default_url_options = { host: 'https://property-rental-alexcalaca.c9users.io', port: 8080 }
+  Paperclip.options[:command_path] = "/usr/local/bin/"
   
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
