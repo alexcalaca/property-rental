@@ -12,11 +12,11 @@
       
       <div class="panel-body">
         <div class="container">
-          <%= form for @room do |f| %>
+          <%= form_for @room do |f| %>
             <div class="row">
               <div class="form-group">
                 <label>Address</label>
-                <%= f.text_field :address, placeholder: "What is your address?", class="form-control" %>
+                <%= f.text_field :address, placeholder: "What is your address?", class:"form-control" %>
               </div>
             </div>
             
