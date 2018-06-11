@@ -9,7 +9,7 @@ Rails.application.configure do
   config.assets.debug = true
   config.assets.digest = true
   config.assets.raise_runtime_errors = true
-  config.action_mailer.default_url_options = { host: 'localhost', port: 8080 }
+  config.action_mailer.default_url_options = { host: 'https://property-rental-alexcalaca.c9users.io', port: 8080 }
   
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
@@ -18,6 +18,6 @@ Rails.application.configure do
     enable_starttls_auto: true,
     authentication: 'plain',
     user_name: 'calaca.silva@gmail.com',
-    password: 'yourpassword' 
+    password: 'fageeyrkumhqvvbf' 
   }
 end
