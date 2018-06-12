@@ -1,7 +1,7 @@
 class PhotosController < ApplicationController
   
   def create
-    @room = Room.find(params[:id])
+    @room = Room.find(params[:room_id])
     
     if params[:images]
       params[:images].each do |img|
