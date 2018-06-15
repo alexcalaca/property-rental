@@ -8,4 +8,6 @@ class Room < ApplicationRecord
   validates :bedroom, presence: true
   validates :bathroom, presence: true
   
+  
+  
 end
