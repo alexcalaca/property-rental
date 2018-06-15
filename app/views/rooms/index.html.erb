@@ -16,11 +16,11 @@
       <% @rooms.each do |room| %>
         <div class="row">
           <div class="col-md-2">
-            <%= image_tag room.photos[0].image.url(:thumb) if room.photos.length > 0 %>
+            <%= image_tag room.cover_photo(:thumb) %>
           </div>
           
           <div class="col-md-7">
-            <h4><%= room.listing_name 0%></h4>
+            <h4><%= room.listing_name %></h4>
           </div>
           
           <div class="col-md-3 right">
