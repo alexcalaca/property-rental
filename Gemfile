@@ -13,6 +13,7 @@ gem 'jquery-rails'
 gem 'devise', '~> 4.2'
 gem 'toastr-rails', '~> 1.0'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
+gem 'geocoder', '~> 1.4'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
